@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<name>ClipGo</name>
+	<ignore>ClipGo</ignore>
+	<logPath>data\logs\</logPath>
+	<!--FollowMouse,BottomRight-->
+	<actionFormStartPosition>FollowMouse</actionFormStartPosition>
+	<actionFormDelayClose>4000</actionFormDelayClose>
+
+	<webServerPort>1207</webServerPort>
+	<webServerRoot>data\wwwroot</webServerRoot>
+
+	<clipboard>
+		<match type="text" params="^\d{16}$">
+			<actionForm>
+				<links>
+					<link title="Search {0} in DFM" action="https://www.dummy.com/ticket={0}" />
+					<link title="Open {0} in PowerShell" action="data\actions\test.ps1" />
+					<link title="Open {0} in BAT" action="data\actions\test.bat" />
+					<link title="Open {0} in OneNote" action="data\actions\onenote.bat" />
+				</links>
+			</actionForm>
+		</match>
+		<match type="json">
+			<actionForm>
+				<links>
+					<link title="Format JSON" action="http://localhost/formatjson" />
+				</links>
+			</actionForm>
+		</match>
+		<match type="xml">
+			<actionForm>
+				<links>
+					<link title="Format Xml" action="http://localhost/formatxml" />
+				</links>
+			</actionForm>
+		</match>
+		<match type="image">
+			<actionForm>
+				<links>
+					<link title="Update Image" action="http://localhost/formatxml" />
+				</links>
+			</actionForm>
+		</match>
+	</clipboard>
+</config>
