@@ -43,7 +43,7 @@ Example : This matches a 16-digit number and replaces {0} with the matched value
     <match type="text" params="^\d{16}$">
         <actionForm>
             <links>
-                <link title="Search {0} in Case System" action="https://www.casesystem.com/ticket={0}" />
+                <link title="Search {0} in Case System" action="https://www.ticket-system.com/ticketId={0}" />
                 <link title="Open {0} in BAT" action="data\actions\ticket.bat" />
             </links>
         </actionForm>
@@ -52,8 +52,7 @@ Example : This matches a 16-digit number and replaces {0} with the matched value
 
 ## Roadmap
 
-- [ ] Add tray icon with context menu
-- [ ] External JSON configuration support
+- [x] Add tray icon with context menu
 - [ ] GUI for adding/removing patterns
 - [ ] Auto-start on system boot
 
