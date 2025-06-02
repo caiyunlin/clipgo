@@ -12,16 +12,14 @@
 
 ## Example Use Case
 
-1. You copy a 12-digit ticket ID such as `123456789012`
+1. You copy a ticket ID such as `BOOKKEEPER-115`
 2. ClipGo detects it matches a predefined pattern
-3. A dialog pops up with a shortcut link:  
-   `https://www.casesystem.com/caseid=123456789012`
+3. A dialog pops up with a shortcut link:  `https://issues.apache.org/jira/browse/BOOKKEEPER-115`
 4. Clicking the link opens the corresponding case page in your browser
 
 ## Installation
 
-> ⚠️ ClipGo is developed with **.NET Framework 4.7.2**  
-> Ensure it is installed on your Windows system.
+> ClipGo is developed with **.NET Framework 4.7.2**, ensure it is installed on your Windows system.
 
 1. Clone the repository:
    ```bash
