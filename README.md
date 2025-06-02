@@ -1,6 +1,6 @@
-# Clip Go
+# ClipGo
 
-**Clip Go** is a lightweight clipboard monitoring tool that detects specific patterns such as ticket IDs or incident codes and provides instant actions via a pop-up window. These actions include quick access to URLs or launching local executables with parameters.
+**ClipGo** is a lightweight clipboard monitoring tool that detects specific patterns such as ticket IDs or incident codes and provides instant actions via a pop-up window. These actions include quick access to URLs or launching local executables with parameters.
 
 ## Features
 
@@ -13,14 +13,14 @@
 ## Example Use Case
 
 1. You copy a 12-digit ticket ID such as `123456789012`
-2. Clip Go detects it matches a predefined pattern
+2. ClipGo detects it matches a predefined pattern
 3. A dialog pops up with a shortcut link:  
    `https://www.casesystem.com/caseid=123456789012`
 4. Clicking the link opens the corresponding case page in your browser
 
 ## Installation
 
-> ⚠️ Clip Go is developed with **.NET Framework 4.7.2**  
+> ⚠️ ClipGo is developed with **.NET Framework 4.7.2**  
 > Ensure it is installed on your Windows system.
 
 1. Clone the repository:
