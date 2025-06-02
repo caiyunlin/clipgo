@@ -17,7 +17,6 @@
 					<link title="Open {0} Jira" action="https://issues.apache.org/jira/browse/{0}" />
 					<link title="Open {0} in PowerShell" action="data\actions\test.ps1" />
 					<link title="Open {0} in BAT" action="data\actions\test.bat" />
-					<link title="Open {0} in OneNote" action="data\actions\onenote.bat" />
 				</links>
 			</actionForm>
 		</match>
