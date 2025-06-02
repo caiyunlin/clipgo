@@ -43,10 +43,8 @@ Example : This matches a 16-digit number and replaces {0} with the matched value
     <match type="text" params="^\d{16}$">
         <actionForm>
             <links>
-                <link title="Search {0} in Case System" action="https://www.dummy.com/ticket={0}" />
-                <link title="Open {0} in PowerShell" action="data\actions\test.ps1" />
-                <link title="Open {0} in BAT" action="data\actions\test.bat" />
-                <link title="Open {0} in OneNote" action="data\actions\onenote.bat" />
+                <link title="Search {0} in Case System" action="https://www.casesystem.com/ticket={0}" />
+                <link title="Open {0} in BAT" action="data\actions\ticket.bat" />
             </links>
         </actionForm>
     </match>
